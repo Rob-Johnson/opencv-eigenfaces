@@ -46,7 +46,7 @@ This will create a csv in the form file;label. See [OpenCV Docs](http://docs.ope
 
 ## TODO
 	[] Improve command line usage to allow file location of csv file, test/training ratio etc.
-	
+  	
 ## Credit
 
 This is just a python implementation of some of the behaviour shown in the [OpenCV docs](http://docs.opencv.org/modules/contrib/doc/facerec/facerec_tutorial.html#eigenfaces-in-opencv). 
