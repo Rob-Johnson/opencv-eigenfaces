@@ -31,7 +31,7 @@ def prepare_training_testing_data(file):
 
 def create_label_matrix_dict(input_file):
     """ Create dict of label -> matricies from file """
-    ### for every line, if key exists, insert into map, else append
+    ### for every line, if key exists, insert into dict, else append
     label_dict = {}
 
     for line in input_file:
