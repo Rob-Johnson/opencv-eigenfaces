@@ -10,6 +10,22 @@ N.B requires a csv file at
 	
 	./faces.csv
 	
+##Dependencies
+[OpenCV](http://opencv.org/)
+```bash
+brew install opencv
+```
+
+Create your virtualenv allowing for site packages, so you can access opencv python bindings
+````bash
+virtualenv --system-site-packages
+```
+
+Then install deps from requirements.txt
+```bash
+pip install -r requirements.txt
+```
+
 ## Preparation
 	
 I used the set of example face images available from [AT&T Labs Database of Faces](http://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html).
