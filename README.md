@@ -17,7 +17,8 @@ brew install opencv
 ```
 
 Create your virtualenv allowing for site packages, so you can access opencv python bindings
-````bash
+
+```bash
 virtualenv --system-site-packages
 ```
 
@@ -44,9 +45,6 @@ Create the necessary csv file
 
 This will create a csv in the form file;label. See [OpenCV Docs](http://docs.opencv.org/modules/contrib/doc/facerec/facerec_tutorial.html#creating-the-csv-file) for more info.
 
-## TODO
-	[] Improve command line usage to allow file location of csv file, test/training ratio etc.
-  	
 ## Credit
 
 This is just a python implementation of some of the behaviour shown in the [OpenCV docs](http://docs.opencv.org/modules/contrib/doc/facerec/facerec_tutorial.html#eigenfaces-in-opencv). 
